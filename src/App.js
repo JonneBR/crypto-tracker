@@ -14,8 +14,11 @@ function App() {
   //     console.log(error);
   //   });
   return (
-    <div className='App'>
-      <h1>API SITE</h1>
+    <div className='coin-app'>
+      <div className='header-content'>
+        <h1>Search for Cryptocurrency</h1>
+        <input type='text' className='search-coin' />
+      </div>
     </div>
   );
 }
