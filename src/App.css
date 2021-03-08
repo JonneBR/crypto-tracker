@@ -8,7 +8,7 @@
 }
 
 .coin-app {
-  height: 100vh;
+  padding: 100px 0;
   border: 1px solid red;
   display: flex;
   justify-content: center;

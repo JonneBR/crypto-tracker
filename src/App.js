@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { CoinTable } from './components/CoinTable/CoinTable';
 import './App.css';
 import axios from 'axios';
 
@@ -19,6 +20,7 @@ function App() {
         <h1>Search for Cryptocurrency</h1>
         <input type='text' className='search-coin' placeholder='Search' />
       </div>
+      <CoinTable />
     </div>
   );
 }
