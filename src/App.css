@@ -1,4 +1,13 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'PT-Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(32, 32, 32);
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
