@@ -17,7 +17,7 @@ function App() {
     <div className='coin-app'>
       <div className='header-content'>
         <h1>Search for Cryptocurrency</h1>
-        <input type='text' className='search-coin' />
+        <input type='text' className='search-coin' placeholder='Search' />
       </div>
     </div>
   );
