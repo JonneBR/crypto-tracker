@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.content-list {
+.content-table {
   /* border: 1px solid white; */
   color: white;
   /* text-align: left; */
@@ -17,7 +17,7 @@
   border-spacing: 0;
 }
 
-.content-list th {
+.content-table th {
   color: #9b9b9b;
   background-color: #343a40;
   height: 50px;
@@ -36,6 +36,28 @@
   padding: 25px;
 }
 
+.text-danger {
+  color: #e15241;
+}
+
+.text-green {
+  color: #8dc647;
+}
+
+.coin {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 20px;
+  margin: 10px;
+  margin-top: 6px;
+}
+
 th {
   font-size: 17px;
   font-weight: 100;
@@ -46,4 +68,7 @@ th {
 
 td {
   text-align: center;
+  color: #9b9b9b;
+  height: 50px;
+  border-bottom: 1px solid white;
 }
