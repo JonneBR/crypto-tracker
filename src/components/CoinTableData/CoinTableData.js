@@ -14,8 +14,13 @@ export const CoinTableData = ({ item }) => {
         <td className='text-danger'>-0.2%</td>
         <td className='text-green'>6.1%</td>
         <td className='text-green'>8.1%</td>
-        <td>54,965.00</td>
-        <td>50,971.00</td>
+        <td>
+          ${item.high_24h.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+        </td>
+        <td>
+          {' '}
+          ${item.low_24h.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+        </td>
       </tr>
     </Fragment>
   );

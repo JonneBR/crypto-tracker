@@ -9,7 +9,6 @@
 
 .coin-app {
   padding: 100px 0;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
