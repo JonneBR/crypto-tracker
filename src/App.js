@@ -3,8 +3,16 @@ import { CoinTable } from './components/CoinTable/CoinTable';
 import './App.css';
 import axios from 'axios';
 
+//FILTER DATA ON SEARCH INPUT
+
 function App() {
   const [items, setItems] = useState([]);
+  const [search, setSearch] = useState('');
+
+  const filterSearch = (e) => {
+    setSearch(e.target.value);
+  };
+  const filteredCoins = items.filter((coin) => coin.symbol.includes(search));
 
   const updateCurrencyList = () => {
     getCoinsData();
@@ -34,9 +42,14 @@ function App() {
         <button onClick={updateCurrencyList} className='btn-update'>
           Atualizar
         </button>
-        <input type='text' className='search-coin' placeholder='Search' />
+        <input
+          onChange={filterSearch}
+          type='text'
+          className='search-coin'
+          placeholder='Search'
+        />
       </div>
-      <CoinTable items={items} />
+      <CoinTable items={filteredCoins} />
     </div>
   );
 }

@@ -25,7 +25,6 @@ export const CoinTable = ({ items }) => {
           ))}
         </tbody>
       </table>
-      {/* Fazer titulos e cada item com fundo gray */}
     </div>
   );
 };
