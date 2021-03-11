@@ -6,7 +6,7 @@ import './CoinTable.css';
 
 export const CoinTable = ({ items, setItems }) => {
   const listOrder = () => {
-    console.log('entrando');
+    console.log((0.12893).toFixed(1));
     setItems(
       items.sort((a, b) => {
         return b.current_price - a.current_price;
