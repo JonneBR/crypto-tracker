@@ -49,7 +49,7 @@ function App() {
           placeholder='Search'
         />
       </div>
-      <CoinTable items={filteredCoins} />
+      <CoinTable items={filteredCoins} setItems={setItems} />
     </div>
   );
 }
