@@ -1,5 +1,4 @@
 .coin-list {
-  /* border: 1px solid red; */
   width: 80vw;
   display: flex;
   justify-content: center;
@@ -7,9 +6,7 @@
 }
 
 .content-table {
-  /* border: 1px solid white; */
   color: white;
-  /* text-align: left; */
   min-width: 800px;
   margin: 25px 0;
   margin-left: 10px;
@@ -31,7 +28,6 @@
 }
 
 .left-side {
-  /* border: 1px solid red; */
   text-align: left;
   padding: 25px;
 }
@@ -66,8 +62,6 @@ th {
   font-size: 17px;
   font-weight: 100;
   color: #9b9b9b;
-  /* border-bottom: 1px solid white; */
-  /* border: 1px solid white; */
 }
 
 td {
@@ -79,7 +73,6 @@ td {
 
 @media screen and (max-width: 550px){
   h1{
-    border: 1px solid red;
     font-size: 25px;
   }
 }
