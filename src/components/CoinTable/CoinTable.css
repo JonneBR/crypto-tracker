@@ -52,6 +52,10 @@
   align-items: center;
 }
 
+.coin-price{
+cursor: pointer;
+}
+
 img {
   width: 20px;
   margin: 10px;

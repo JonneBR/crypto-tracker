@@ -46,7 +46,7 @@ function App() {
           onChange={filterSearch}
           type='text'
           className='search-coin'
-          placeholder='Search'
+          placeholder='Ex: btc'
         />
       </div>
       <CoinTable items={filteredCoins} setItems={setItems} />

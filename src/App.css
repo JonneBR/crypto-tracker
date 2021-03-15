@@ -24,6 +24,20 @@
   flex-direction: column;
   padding: 50px;
 }
+
+.btn-update{
+  color: white;
+  border: 1px solid white;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-update:hover{
+  padding: 15px;
+ 
+}
+
 .search-coin {
   border: 1px solid white;
   outline: none;
